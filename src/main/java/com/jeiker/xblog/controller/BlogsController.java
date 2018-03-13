@@ -1,6 +1,5 @@
 package com.jeiker.xblog.controller;
 
-import com.jeiker.xblog.dao.BlogsMapper;
 import com.jeiker.xblog.model.Blogs;
 import com.jeiker.xblog.service.BlogsService;
 import org.slf4j.Logger;
@@ -8,7 +7,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**
